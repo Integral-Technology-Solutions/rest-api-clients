@@ -6,7 +6,9 @@
 * Outages
 
 ## Installation
-`go get -u github.com/uptime-com/rest-api-clients/golang/uptime`
+```bash
+go get -u github.com/uptime-com/rest-api-clients/golang/uptime
+```
 
 ## Run Tests
 
