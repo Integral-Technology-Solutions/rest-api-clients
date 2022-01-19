@@ -8,6 +8,12 @@
 ## Installation
 `go get -u github.com/uptime-com/rest-api-clients/golang/uptime`
 
+## Run Tests
+
+```bash
+go test -v ./uptime
+```
+
 ## Documentation
 To view godocs locally, run `godoc`. Open http://localhost:6060 in a web browser and navigate to the go-uptime package under Third party.
 
