@@ -45,6 +45,7 @@ type Client struct {
 	Checks  *CheckService
 	Outages *OutageService
 	Tags    *TagService
+	Integrations *IntegrationService
 }
 
 type service struct {
@@ -113,6 +114,7 @@ func NewClient(config *Config) (*Client, error) {
 	c.Outages = (*OutageService)(&c.common)
 	c.Checks = (*CheckService)(&c.common)
 	c.Tags = (*TagService)(&c.common)
+	c.Integrations = (*IntegrationService)(&c.common)
 
 	return c, nil
 }
