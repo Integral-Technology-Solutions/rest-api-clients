@@ -21,7 +21,7 @@ type Integration struct {
 	APIKey        string   `json:"api_key,omitempty"`
 	Teams         string   `json:"teams,omitempty"`
 	Tags          string `json:"tags,omitempty"`
-	AutoResolve   bool     `json:"auto_resolve,omitempty"`
+	AutoResolve   bool     `json:"autoresolve,omitempty"`
 }
 
 type IntegrationListResponse struct {
