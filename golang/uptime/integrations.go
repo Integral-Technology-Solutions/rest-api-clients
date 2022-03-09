@@ -20,7 +20,7 @@ type Integration struct {
 	APIEndpoint   string   `json:"api_endpoint,omitempty"`
 	APIKey        string   `json:"api_key,omitempty"`
 	Teams         string   `json:"teams,omitempty"`
-	Tags          string `json:"tags,omitempty"`
+	Tags          string   `json:"tags,omitempty"`
 	AutoResolve   bool     `json:"autoresolve,omitempty"`
 }
 
