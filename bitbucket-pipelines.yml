@@ -1,0 +1,11 @@
+image: atlassian/default-image:latest
+
+pipelines:
+  branches:
+    dev:
+    - step:
+      script:
+      - git remote add sync git@github.com:Integral-Technology-Solutions/rest-api-clients.git
+      - git checkout main
+      - git pull
+      - git push sync master
