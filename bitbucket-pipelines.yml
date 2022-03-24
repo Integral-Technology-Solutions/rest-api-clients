@@ -6,6 +6,6 @@ pipelines:
       - step:
           script:
           - git remote add sync git@github.com:Integral-Technology-Solutions/rest-api-clients.git
-          - git checkout main
+          - git checkout $BITBUCKET_BRANCH
           - git pull
-          - git push sync master
+          - git push sync $BITBUCKET_BRANCH
