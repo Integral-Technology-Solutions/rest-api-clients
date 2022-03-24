@@ -2,7 +2,7 @@ image: atlassian/default-image:latest
 
 pipelines:
   branches:
-    dev:
+    public:
     - step:
       script:
       - git remote add sync git@github.com:Integral-Technology-Solutions/rest-api-clients.git
